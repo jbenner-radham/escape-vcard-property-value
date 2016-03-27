@@ -1,0 +1,36 @@
+{
+  "name": "escape-vcard-property-value",
+  "version": "0.1.0",
+  "description": "Escape vCard property values.",
+  "main": "lib/escape-vcard-property-value.js",
+  "scripts": {
+    "test": "gulp && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbenner-radham/escape-vcard-property-value.git"
+  },
+  "keywords": [
+    "jCard",
+    "vCard",
+    "property",
+    "escape",
+    "value"
+  ],
+  "author": "James Benner <james.benner@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenner-radham/escape-vcard-property-value/issues"
+  },
+  "homepage": "https://github.com/jbenner-radham/escape-vcard-property-value#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-micro": "^1.1.0",
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {}
+}
