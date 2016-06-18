@@ -19,7 +19,7 @@ var escapeVcardPropertyValue = require('escape-vcard-property-value');
 
 escapeVcardPropertyValue(',');  // > '\,'
 escapeVcardPropertyValue(';');  // > '\;'
-escapeVcardPropertyValue('\\'); // > '\\'
+escapeVcardPropertyValue('\\'); // > '\\\\'
 escapeVcardPropertyValue('\n'); // > '\\n'
 ```
 
